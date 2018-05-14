@@ -1,0 +1,26 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "FIFA 2018 backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reyespinosa3/fifa2018-backend.git"
+  },
+  "author": "Rey Espinosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reyespinosa3/fifa2018-backend/issues"
+  },
+  "homepage": "https://github.com/reyespinosa3/fifa2018-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.18"
+  }
+}
